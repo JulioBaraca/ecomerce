@@ -36,65 +36,98 @@
             }
         </script>
 
-        <!--FORMULARIO-->
-        <section class="register">
-            <div class="max-width">
-                <div class="quest">
-                    <form>
-                        <div class="dados-pessoais">
-                            <h2>Dados Pessoais</h2>
-                            <div class="nome">
-                                <br>
-                                <h3>Nome Completo:</h3>
-                                <input type="text" name="nome-completo" id="register">
+        <div class="page-login">
+            <table>
+                <tr>
+                    <td>
+                       <div class="login">
+                            <div class="max-width">
+                                <h1>Login</h1>
+                                <div class="quest">
+                                    <form>
+                                        <br><br>
+                                        <div class="email">
+                                            <h3>Email:</h3>
+                                            <input type="email" name="email" id="registre">
+                                        </div>
+                                        <div class="senha">
+                                            <br>
+                                            <h3>Senha:</h3>
+                                            <input type="password" name="senha" id="register">
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
-                        </div>
-                        <div class="genero">
-                            <br>
-                            <h3>Genêro:</h3>
-                            <input type="radio" name="genero" id="register"> Masculino
-                            <input type="radio" name="genero" id="register"> Feminino
-                            <input type="radio" name="genero" id="register"> Não Informar
-                        </div>
-                        <div class="data-nasc">
-                            <br>
-                            <h3>Data de nascimento: </h3>
-                            <input type="date" name="data-nasc" id="register">
-                        </div>
-                        <div class="cpf">
-                            <br>
-                            <h3>CPF:</h3>
-                            <input type="text" name="cpf" placeholder="___.___.___-__" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})">
-                        </div>
-                        <div class="telefone">
-                            <br>
-                            <h3>Telefone: </h3>
-                            <input type="text" name="telefone" id="register" placeholder="(__) _____-____">
-                            <br>
-                            <input type="checkbox" name="notf" id="register"> Receber notificações pelo WhatsApp
-                        </div>
-                        <div class="email">
-                            <br>
-                            <h3>Email:</h3>
-                            <input type="email" name="email" id="registre">
-                            <br>
-                            <input type="checkbox" name="notf" id="register"> Receber emails promocionais
-                        </div>
-                        <div class="senha">
-                            <br>
-                            <h3>Senha:</h3>
-                            <input type="password" name="senha" id="register">
-                        </div>
-                        <div class="clear">
-                            <br>
-                            <input type="reset" name="b1" value="Limpar">
-                        </div>
-                        <div class="cadastrar">
-                            <input type="submit" value="Cadastrar">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>        
+                       </div> 
+                    </td>
+                    <td>
+                        <div class="registrar">
+                            <!--FORMULARIO-->
+                            <section class="register">
+                                <div class="max-width">
+                                    <div class="quest">
+                                        <form>
+                                            <h1>Registrar</h1>
+                                            <div class="dados-pessoais">
+                                                <br><br>
+                                                <h2>Dados Pessoais</h2>
+                                                <div class="nome">
+                                                    <br>
+                                                    <h3>Nome Completo:</h3>
+                                                    <input type="text" name="nome-completo" id="register">
+                                                </div>
+                                            </div>
+                                            <div class="genero">
+                                                <br>
+                                                <h3>Genêro:</h3>
+                                                <input type="radio" name="genero" id="register"> Masculino
+                                                <input type="radio" name="genero" id="register"> Feminino
+                                                <input type="radio" name="genero" id="register"> Não Informar
+                                            </div>
+                                            <div class="data-nasc">
+                                                <br>
+                                                <h3>Data de nascimento: </h3>
+                                                <input type="date" name="data-nasc" id="register">
+                                            </div>
+                                            <div class="cpf">
+                                                <br>
+                                                <h3>CPF:</h3>
+                                                <input type="text" name="cpf" placeholder="___.___.___-__" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})">
+                                            </div>
+                                            <div class="telefone">
+                                                <br>
+                                                <h3>Telefone: </h3>
+                                                <input type="text" name="telefone" id="register" placeholder="(__) _____-____">
+                                                <br>
+                                                <input type="checkbox" name="notf" id="register"> Receber notificações pelo WhatsApp
+                                            </div>
+                                            <div class="email">
+                                                <br>
+                                                <h3>Email:</h3>
+                                                <input type="email" name="email" id="registre">
+                                                <br>
+                                                <input type="checkbox" name="notf" id="register"> Receber emails promocionais
+                                            </div>
+                                            <div class="senha">
+                                                <br>
+                                                <h3>Senha:</h3>
+                                                <input type="password" name="senha" id="register">
+                                            </div>
+                                            <div class="clear">
+                                                <br>
+                                                <input type="reset" name="b1" value="Limpar">
+                                            </div>
+                                            <div class="cadastrar">
+                                                <input type="submit" value="Cadastrar">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>      
+                            </div>  
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
